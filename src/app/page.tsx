@@ -14,7 +14,6 @@ export default function Home() {
           Sweden at the Stockholm International Exhibition (1930) marking the
           definitive end of Nordic Classicism.
         </p>
-        <div className="card">Hello</div>
       </main>
     </>
   );
