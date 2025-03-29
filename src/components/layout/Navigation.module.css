@@ -1,0 +1,94 @@
+.navigation {
+  width: 100%;
+  padding: 0.5rem 0;
+  margin-left: auto; /* This right-aligns the navigation */
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.8rem;
+}
+
+.navigation li {
+  position: relative;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: block;
+  padding: 0.3rem 0;
+}
+
+.navigation a:hover {
+  color: #ccc;
+}
+
+.navigation a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.navigation a:hover::after {
+  width: 100%;
+}
+
+/* Active link styles */
+.navigation a[aria-current="page"] {
+  font-weight: 600;
+}
+
+.navigation a[aria-current="page"]::after {
+  width: 100%;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+  .navigation ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .navigation a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+  }
+  
+  .navigation a::after {
+    bottom: -2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  .navigation ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+/* For medium sized screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navigation ul {
+    gap: 1.5rem;
+  }
+}

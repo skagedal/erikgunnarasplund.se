@@ -1,0 +1,93 @@
+.workPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.workPage h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+  position: relative;
+}
+
+.workPage h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #000;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  max-width: 900px;
+  color: #333;
+}
+
+.carousel {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carouselPlaceholder {
+  background-color: #f0f0f0;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Add more styling for the carousel once it's implemented */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .workPage {
+    padding: 2rem 1.5rem 4rem;
+  }
+  
+  .workPage h1 {
+    font-size: 2.4rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .carouselPlaceholder {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .workPage {
+    padding: 1.5rem 1rem 3rem;
+  }
+  
+  .workPage h1 {
+    font-size: 2rem;
+  }
+  
+  .workPage h1::after {
+    width: 60px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .carouselPlaceholder {
+    height: 250px;
+  }
+}
