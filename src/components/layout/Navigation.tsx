@@ -1,21 +1,30 @@
 import Link from "next/link";
-import styles from "./Navigation.module.css";
+import { Locale } from "@/i18n/settings";
+import { Dictionary } from "@/i18n/getDictionary";
 
-const Navigation = () => {
+// Add proper type definition for props
+type NavigationProps = {
+  lang: Locale;
+  dict: Dictionary["common"];
+};
+
+const Navigation = ({ lang, dict }: NavigationProps) => {
   return (
-    <nav className={styles.navigation}>
+    <nav>
       <ul>
         <li>
-          <Link href="/">Home</Link>
+          <Link href={`/${lang}`}>{dict.navigation.home}</Link>
         </li>
         <li>
-          <Link href="/about">About Gunnar Asplund</Link>
+          <Link href={`/${lang}/about`}>{dict.navigation.about}</Link>
         </li>
         <li>
-          <Link href="/works">Works</Link>
+          <Link href={`/${lang}/works`}>{dict.navigation.works}</Link>
         </li>
         <li>
-          <Link href="/organization">Organization</Link>
+          <Link href={`/${lang}/organization`}>
+            {dict.navigation.organization}
+          </Link>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Gunnar Asplund",
+    "works": "Works",
+    "organization": "Organization"
+  },
+  "switchLanguage": "Svenska",
+  "footer": {
+    "copyright": "© {{year}} Gunnar Asplund Website. All rights reserved."
+  }
+}

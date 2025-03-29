@@ -1,0 +1,26 @@
+{
+  "title": "Organisation",
+  "introduction": "Denna sektion ger information om organisationer och institutioner kopplade till Erik Gunnar Asplunds arv och arbete.",
+  "foundation": {
+    "heading": "Asplundstiftelsen",
+    "content": "Asplundstiftelsen arbetar för att bevara och främja Erik Gunnar Asplunds arkitektoniska arv. Stiftelsen underhåller arkiv, stödjer forskning och anordnar utställningar relaterade till hans arbete."
+  },
+  "archives": {
+    "heading": "Arkitekturarkiv",
+    "content": "Asplunds ritningar, planer och dokument bevaras i flera arkiv, inklusive Arkitektur- och designcentrum (ArkDes) i Stockholm, som innehar den mest omfattande samlingen av hans arbete."
+  },
+  "researchCenter": {
+    "heading": "Forskning och utbildning",
+    "content": "Flera akademiska institutioner erbjuder program med fokus på Asplunds bidrag till arkitekturen. Dessa center bedriver forskning och tillhandahåller utbildningsresurser om hans inflytande på nordisk design."
+  },
+  "worldHeritageSite": {
+    "heading": "UNESCO Världsarv",
+    "content": "Skogskyrkogården, ett av Asplunds mästerverk skapat tillsammans med Sigurd Lewerentz, förvaltas som ett UNESCO världsarv, vilket säkerställer dess bevarande för framtida generationer."
+  },
+  "contact": {
+    "heading": "Kontaktinformation",
+    "address": "Huvudkontor, Stockholm, Sverige",
+    "email": "info@asplundlegacy.org",
+    "phone": "+46 XX XXX XX XX"
+  }
+}

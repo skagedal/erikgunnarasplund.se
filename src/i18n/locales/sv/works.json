@@ -1,0 +1,32 @@
+{
+  "title": "Verk av Gunnar Asplund",
+  "introduction": "Erik Gunnar Asplund skapade många inflytelserika byggnader i hela Sverige. Hans arbete sträcker sig från tidig nordisk klassicism till senare funktionalistiska designer.",
+  "majorWorks": {
+    "heading": "Huvudsakliga verk",
+    "projects": [
+      {
+        "name": "Stockholms stadsbibliotek",
+        "year": "1924-1928",
+        "description": "Ett av Asplunds mest kända verk, med en cylindrisk huvudhall där böcker är arrangerade i nivåer längs väggarna."
+      },
+      {
+        "name": "Skogskyrkogården",
+        "year": "1917-1940",
+        "description": "Ett UNESCO världsarv designat tillsammans med Sigurd Lewerentz, som förenar arkitektur och landskap till en sammanhängande helhet."
+      },
+      {
+        "name": "Stockholmsutställningen",
+        "year": "1930",
+        "description": "En betydelsefull utställning av funktionalistisk arkitektur som blev inflytelserik för etableringen av den svenska moderna stilen."
+      }
+    ]
+  },
+  "otherProjects": {
+    "heading": "Andra noterbara projekt",
+    "content": "Asplunds portfölj inkluderar flera andra byggnader såsom Skandiabiografen, tillbyggnaden av Göteborgs rådhus och Skogskrematioriet."
+  },
+  "influence": {
+    "heading": "Arkitektoniskt inflytande",
+    "content": "Asplunds arbete representerar en särpräglad blandning av klassicism och modernism som har påverkat generationer av arkitekter i Sverige och utomlands."
+  }
+}

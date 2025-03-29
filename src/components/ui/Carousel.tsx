@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import styles from "./Carousel.module.css";
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images }: { images: string[] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -10,8 +10,8 @@ const Carousel = ({ images }) => {
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => 
-      (prevIndex - 1 + images.length) % images.length
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
   };
 

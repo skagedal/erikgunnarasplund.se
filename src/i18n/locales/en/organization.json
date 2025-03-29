@@ -1,0 +1,26 @@
+{
+  "title": "Organization",
+  "introduction": "This section provides information about organizations and institutions connected to Erik Gunnar Asplund's legacy and work.",
+  "foundation": {
+    "heading": "Asplund Foundation",
+    "content": "The Asplund Foundation works to preserve and promote the architectural legacy of Erik Gunnar Asplund. The foundation maintains archives, supports research, and organizes exhibitions related to his work."
+  },
+  "archives": {
+    "heading": "Architectural Archives",
+    "content": "Asplund's drawings, plans, and documents are preserved in several archives, including the Swedish Centre for Architecture and Design (ArkDes) in Stockholm, which houses the most comprehensive collection of his work."
+  },
+  "researchCenter": {
+    "heading": "Research and Education",
+    "content": "Several academic institutions offer programs focusing on Asplund's contributions to architecture. These centers conduct research and provide educational resources about his influence on Nordic design."
+  },
+  "worldHeritageSite": {
+    "heading": "UNESCO World Heritage",
+    "content": "The Woodland Cemetery (Skogskyrkogården), one of Asplund's masterpieces created with Sigurd Lewerentz, is managed as a UNESCO World Heritage site, ensuring its preservation for future generations."
+  },
+  "contact": {
+    "heading": "Contact Information",
+    "address": "Main Office, Stockholm, Sweden",
+    "email": "info@asplundlegacy.org",
+    "phone": "+46 XX XXX XX XX"
+  }
+}

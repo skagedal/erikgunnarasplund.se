@@ -1,14 +1,21 @@
-import Link from "next/link";
-import styles from "./Header.module.css";
+import { Locale } from "@/i18n/settings";
+import { Dictionary } from "@/i18n/getDictionary";
 import Navigation from "./Navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-const Header = () => {
+type HeaderProps = {
+  lang: Locale;
+  dict: Dictionary["common"];
+};
+
+const Header = ({ lang, dict }: HeaderProps) => {
   return (
-    <header className={styles.header}>
-      <Link href="/" className={styles.titleLink}>
-        <h1 className={styles.title}>Gunnar Asplund</h1>
-      </Link>
-      <Navigation />
+    <header>
+      <div className="logo">
+        <a href={`/${lang}`}>Gunnar Asplund</a>
+      </div>
+      <Navigation lang={lang} dict={dict} />
+      <LanguageSwitcher lang={lang} dict={dict} />
     </header>
   );
 };

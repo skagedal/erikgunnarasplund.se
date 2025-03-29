@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Hem",
+    "about": "Om Gunnar Asplund",
+    "works": "Verk",
+    "organization": "Organisation"
+  },
+  "switchLanguage": "English",
+  "footer": {
+    "copyright": "© {{year}} Gunnar Asplund Webbplats. Alla rättigheter förbehållna."
+  }
+}

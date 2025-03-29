@@ -9,17 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.6.1",
+    "negotiator": "^1.0.0",
+    "next": "*",
     "react": "*",
-    "react-dom": "*",
-    "next": "*"
+    "react-dom": "*"
   },
   "devDependencies": {
-    "typescript": "*",
+    "@types/negotiator": "^0.6.3",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "eslint": "*",
-    "eslint-config-next": "*"
+    "eslint-config-next": "*",
+    "typescript": "*"
   },
   "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
 }

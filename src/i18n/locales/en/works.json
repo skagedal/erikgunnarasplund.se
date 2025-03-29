@@ -1,0 +1,32 @@
+{
+  "title": "Works by Gunnar Asplund",
+  "introduction": "Erik Gunnar Asplund created numerous influential buildings throughout Sweden. His work spans from early Nordic Classicism to later Functionalist designs.",
+  "majorWorks": {
+    "heading": "Major Works",
+    "projects": [
+      {
+        "name": "Stockholm Public Library",
+        "year": "1924-1928",
+        "description": "One of Asplund's most famous works, featuring a cylindrical main hall with books arranged in tiers around the walls."
+      },
+      {
+        "name": "Woodland Cemetery (Skogskyrkogården)",
+        "year": "1917-1940",
+        "description": "A UNESCO World Heritage site designed with Sigurd Lewerentz, blending architecture and landscape into a unified whole."
+      },
+      {
+        "name": "Stockholm Exhibition",
+        "year": "1930",
+        "description": "A significant exhibition of functionalist architecture that became influential in establishing the Swedish modern style."
+      }
+    ]
+  },
+  "otherProjects": {
+    "heading": "Other Notable Projects",
+    "content": "Asplund's portfolio includes numerous other buildings such as the Skandia Cinema, Göteborg Law Courts extension, and the Woodland Crematorium."
+  },
+  "influence": {
+    "heading": "Architectural Influence",
+    "content": "Asplund's work represents a distinctive blend of classicism and modernism that influenced generations of architects in Sweden and beyond."
+  }
+}
